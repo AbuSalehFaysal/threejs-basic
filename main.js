@@ -9,7 +9,7 @@ const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerH
 camera.position.z = 5;
 
 // 3. Create and add a cube object
-const geometry = new THREE.BoxGeometry();
+const geometry = new THREE.ConeGeometry();
 const material = new THREE.MeshLambertMaterial({color: '#5D3FD3', emissive: '#5D3FD3'});
 
 const cube = new THREE.Mesh(geometry, material);
